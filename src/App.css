@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  background-color: #292e39;
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+html {
+  position: relative;
+  z-index: 1;
+}
+
+.line {
+  display: block;
+}
+
+.indent-1 {
+  margin-left: 1rem;
+}
+
+.indent-2 {
+  margin-left: 2rem;
+}
+
+.code-area {
+  display: block;
+  background-color: #2e3440;
+  color: white;
+}
+
+.misc {
+  color: #eceff4;
+}
+
+.comment {
+  color: #88c0d0;
+}
+
+.prop {
+  color: #d08770;
+}
+
+.notation {
+  color: #ebcb8b;
+}
+
+.bool {
+  color: #bf616a;
+}
+
+.type {
+  color: #b48ead;
+}
+
+.number {
+  color: #a3be8c;
+}
+
+.string {
+  color: #ebcb8b;
+}
+
+.comma {
+  color: #5e81ac;
+}
